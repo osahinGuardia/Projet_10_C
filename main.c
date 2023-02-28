@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    euinigevn
     
     int t, a, b, c;
 
