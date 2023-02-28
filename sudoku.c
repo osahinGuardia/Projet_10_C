@@ -8,9 +8,16 @@
 
 void ft_grille(int largeur, int hauteur){
 
-    int i, j, k;
+    int i, j, k, l;
+    char letter = 'A';
+    char number = '1';
+    for(j=0; j<largeur; j++)
+            printf("  %c ", letter++);
+        
+        
     for(i=0; i<hauteur; i++){
         printf("\n");
+        
         
         for(j=0; j<largeur; j++)
             printf("|---");
@@ -23,7 +30,7 @@ void ft_grille(int largeur, int hauteur){
             
             printf("|   ");
         }
-        printf("|");
+        printf("| %c", number++);
        
     }
     printf("\n");
@@ -33,8 +40,6 @@ void ft_grille(int largeur, int hauteur){
     printf("|"); 
 }
 
-jfgu
-test
 int main(int argc, char *argv){
 
     argv[1] = 4;
