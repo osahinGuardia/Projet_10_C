@@ -34,6 +34,7 @@ void ft_grille(int largeur, int hauteur){
 }
 
 jfgu
+test
 int main(int argc, char *argv){
 
     argv[1] = 4;
