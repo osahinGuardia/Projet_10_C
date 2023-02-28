@@ -8,15 +8,15 @@
 
 void ft_grille(int largeur, int hauteur){
 
-    int i, j, k, l;
-    for(i=0; i<4; i++){
+    int i, j, k;
+    for(i=0; i<hauteur; i++){
         printf("\n");
         
-        for(j=0; j<3; j++)
+        for(j=0; j<largeur; j++)
             printf("|---");
         
         l = 0;
-        for(k=0; k<3; k++){
+        for(k=0; k<largeur; k++){
             
             for(l; l<1; l++)
                 printf("|\n");
@@ -27,7 +27,7 @@ void ft_grille(int largeur, int hauteur){
        
     }
     printf("\n");
-    for(j=0; j<3; j++)
+    for(j=0; j<largeur; j++)
         printf("|---");
         
     printf("|"); 
@@ -35,7 +35,7 @@ void ft_grille(int largeur, int hauteur){
 
 int main(int argc, char *argv){
 
-    argv[1] = 3;
+    argv[1] = 4;
     argv[2] = 4;
     ft_grille(argv[1], argv[2]);
 }
