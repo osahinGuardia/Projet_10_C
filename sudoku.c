@@ -6,6 +6,18 @@
 
 //creation de la presentation "SUDOKU" en ASCII
 
+int ft_presentation()
+{
+    printf("\n");
+    printf("    ______                          _      _____  \n");
+    printf("   /  ____\\   |      |        /_\\    |_   _| \n");
+    printf("   \\ \\___     |      |            / _ \\     | |   \n");
+    printf("   ___\\   \\   \\      /         /_/ \\_\\    |_|   \n");
+    printf("   \\______/    \\____/    /_/ \\_\\    |_|   \n");
+    printf("\n");
+
+    return 0;
+}
 
 //creation de la valeur random :
 
@@ -52,6 +64,6 @@ int main(int argc, char **argv){
 
     // argv[1] = 3;
     // argv[2] = 3;
-    // ft_grille(argv[1], argv[2]);1
+    // ft_grille(argv[1], argv[2]);
     printf("%c %c", argv[1][0], argv[2][0]);
 }
