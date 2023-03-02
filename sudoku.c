@@ -1,16 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 //programme de création de sudoku
 
+//creation de la presentation "SUDOKU" en ASCII
+
+
+//creation de la valeur random :
+
+// rand()
 
 //creation de la grille :
 
 void ft_grille(int largeur, int hauteur){
 
     int i, j, k, l;
-    char letter = 'A';
-    char number = '1';
+    char letter = 'A', number = '1';
+    
+    
     for(j=0; j<largeur; j++)
             printf("  %c ", letter++);
         
@@ -40,9 +48,10 @@ void ft_grille(int largeur, int hauteur){
     printf("|"); 
 }
 
-int main(int argc, char *argv){
+int main(int argc, char **argv){
 
-    argv[1] = 4;
-    argv[2] = 4;
-    ft_grille(argv[1], argv[2]);
+    // argv[1] = 3;
+    // argv[2] = 3;
+    // ft_grille(argv[1], argv[2]);1
+    printf("%c %c", argv[1][0], argv[2][0]);
 }
