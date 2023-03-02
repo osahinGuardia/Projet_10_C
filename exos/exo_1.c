@@ -1,3 +1,8 @@
+// Sortir la suite de Fibonacci en base defini par l'input jusqu'au deuxième input
+// Sortir les nombres premiers jusqu'a l'input
+// Definir si l'input est impair ou paire, faire de savoir si c'est un multiple de 3
+// Saisissez 3 input et retournez le plus grand
+
 #include <stdio.h>
 
 int main() {
